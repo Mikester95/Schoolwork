@@ -1,0 +1,28 @@
+#svg {
+	background-color: #b3f0ff;
+	border: 1px groove #262829;
+	border-radius: 10px;
+	width: 70%;
+	height: auto;
+}
+
+.svgContainer {
+	text-align: center;
+	text-decoration: none;
+	box-sizing: border-box;
+	margin: 5% 10%;
+}
+
+.explanationContainer {
+	text-align: center;
+}
+
+svg text {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+svg text::selection {
+    background: none;
+}

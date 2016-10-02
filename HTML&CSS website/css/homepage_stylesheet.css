@@ -1,0 +1,91 @@
+/* dorpdown lists styling */
+
+.lessonContentHeader {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	cursor: default;
+}
+
+.lessonContentHeader h1 {
+	font-size: 170%;
+	font-style: italic;
+}
+
+.dropdown {
+	overflow: hidden;
+}
+
+.dropdownContent {
+	margin-top: 0;
+}
+
+.dropdownContentHidden {
+	display: None;
+}
+
+.dropdownContentDisplay {
+	display: block;
+}
+
+.dropdownContentHiddenAnimate {
+	transform: translateY(-110%);
+	transition-property: transform;
+	transition-duration: 1s;
+}
+
+.dropdownContentDisplayAnimate {
+	transform: translate(0);
+	transition-property: transform;
+	transition-duration: 1s;
+}
+
+.lessonContentHeader:hover {
+	background-image: none;
+	background-color: #80bfff;
+}
+
+.dropdownHeader p {
+	font-size: 87%;
+	font-style: italic;
+}
+
+.dropdownListItem {
+	list-style: none;
+}
+
+.dropdownListItem a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+.dropdownElement {
+	padding: 20px;
+	margin: 20px;
+}
+
+.dropdownElement:hover {
+	background-image: none;
+	background-color: #80bfff;
+}
+
+.dropdownElement header {
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.dropdownElement .content .column {
+	float: left;
+	width: 50%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 700px) {
+	.dropdownElement .content .column {
+		width: auto;
+		float: none;
+	}
+}
+/* END of dropdown list styling */

@@ -1,0 +1,56 @@
+/* article styles */
+.topicArticle .mainArticle {
+	float: left;
+	width: 61%;
+
+	padding: 20px;
+	margin-right: 5%;
+	border: 2px groove #262829;
+	box-sizing: border-box;
+}
+
+.topicArticle .mainArticle ul {
+	padding: 20px;
+	margin: auto;
+}
+
+.topicArticle aside {
+	float: left;
+	width: 34%;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+	.topicArticle .mainArticle {
+		width: 95%;
+		float: none;
+		margin: 20px auto;
+	}
+
+	.topicArticle aside {
+		display: none;
+	}
+}
+/* END of article styles */
+
+/* side picture styles */
+.topicArticle img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px 15px 0 0;
+}
+
+.topicArticle aside footer p {
+	margin: 0;
+
+	color: #9DDDF2;
+	background: rgba(0, 0, 0, 0.75);
+	
+	font-size: 85%;
+
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 0 0 15px 15px;
+}
+/* END of side picture styles */

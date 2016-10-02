@@ -1,0 +1,64 @@
+@keyframes rectOneAnimation {
+	15% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-35px);
+	}
+}
+
+@keyFrames rectTwoAnimation {
+	15% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(35px);
+	}
+}
+
+@keyFrames rectThreeAnimation {
+	45% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(40px);
+	}
+}
+
+.animationDiv {
+	position: relative;
+	width: 200px;
+	height: 90px;
+	margin: auto;
+}
+
+.animationDiv .rect {
+	position: absolute;
+	font-family: "Comic Sans MS";
+	width: 50px;
+	height: 30px;
+	background-color: #fff;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	animation-iteration-count: infinite;
+	animation-duration: 1.5s;
+}
+
+.animationDiv .rect.one {
+	left: 45px;
+	top: 50px;
+	animation-name: rectOneAnimation;
+}
+
+.animationDiv .rect.two {
+	right: 45px;
+	top: 50px;
+	animation-name: rectTwoAnimation;
+}
+
+.animationDiv .rect.three {
+	left: 75px;
+	top: 10px;
+	animation-name: rectThreeAnimation;
+}
